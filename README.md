@@ -1,2 +1,2 @@
-# NaiyuCandy.github.io
+# naiyucandy.github.io
 This is my Blog
