@@ -241,7 +241,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #2f66dd 0%, #6731e5 100%);
 }
 
 .text-color {
@@ -556,7 +556,7 @@ header .go-back i {
 }
 
 .bg-cover:before,
-.bg-cover:after {
+/* .bg-cover:after {
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -565,7 +565,7 @@ header .go-back i {
     left: 0;
     top: 0;
     content: "";
-}
+} */
 
 .bg-cover .container {
     position: relative;
@@ -573,12 +573,30 @@ header .go-back i {
     z-index: 2;
 }
 
+/* .bg-cover .title {
+    font-size: 4rem;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    position: relative;
+} */
+
 .bg-cover .title {
     font-size: 4rem;
     line-height: 1.2em;
     margin-bottom: 20px;
     position: relative;
+    text-shadow: -1px -1px 0 #000,  
+                 1px -1px 0 #000,  
+                 -1px 1px 0 #000,  
+                 1px 1px 0 #000;
 }
+
+
+
+
+
+
+
 
 .bg-cover .description {
     font-weight: 300;
